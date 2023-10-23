@@ -1,5 +1,5 @@
 #!/bin/bash
-
+cd ~/Project/hello-idea/temp/
 # 获取当前时间
 strftime=$(date +"%Y-%m-%d %H:%M:%S")
 
