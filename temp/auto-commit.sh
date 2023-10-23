@@ -4,7 +4,7 @@
 export http_proxy=http://192.168.5.83:7890
 export https_proxy=http://192.168.5.83:7890
 
-cd ~/Project/hello-idea/temp/
+cd /ql/data/repo/selierlin_hello-idea_main/temp/
 # 获取当前时间
 strftime=$(date +"%Y-%m-%d %H:%M:%S")
 
