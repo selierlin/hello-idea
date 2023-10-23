@@ -4,14 +4,13 @@ cd ~/Project/hello-idea/temp/
 strftime=$(date +"%Y-%m-%d %H:%M:%S")
 
 # 打开原始文件并读取内容
-lines=$(cat temp.java)
+lines=$(cat temp.py)
 
 # 在第5行后添加新行
-new_line="        System.out.println(\"$strftime\");"
-lines=$(echo "$lines" | sed "5a$new_line")
+new_line="    print(\"$strftime\")"
 
 # 将修改后的内容写回原始文件
-echo "$lines" > temp.java
+echo "$new_line" >> temp.py
 
 # 执行git commit
 commit_message="$strftime i commit code"

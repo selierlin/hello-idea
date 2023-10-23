@@ -1,0 +1,3 @@
+if __name__ == '__main__':
+    print('hell world')
+    print("2023-10-23 16:15:53")
