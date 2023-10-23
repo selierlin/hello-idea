@@ -15,5 +15,5 @@ if __name__ == '__main__':
         file.writelines(lines)
 
     # 执行 git commit
-    commit_message = "Add new print statement"
+    commit_message = strftime + " i commit code"
     subprocess.run(["git", "commit", "-am", commit_message])
