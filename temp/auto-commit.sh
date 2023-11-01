@@ -5,6 +5,8 @@ export http_proxy=http://192.168.5.83:7890
 export https_proxy=http://192.168.5.83:7890
 
 cd /ql/data/repo/selierlin_hello-idea_main/temp/
+git config user.name "selierlin"
+git pull
 # 获取当前时间
 strftime=$(date +"%Y-%m-%d %H:%M:%S")
 
